@@ -1,3 +1,4 @@
+"Personal Contributions & Use Cases"
 <h1 align="center">Pyscan</h1>
 
 <p align="center">
