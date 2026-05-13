@@ -7,7 +7,7 @@ def run_scan():
     print("--- Starting Security Scan ---")
     
     # 1. Run the pyscan command
-    result = subprocess.run(['pyscan'], capture_output=True, text=True)
+    result = subprocess.run(['pyscan'], capture_output=True, text=True, shell=True)
     
     # 2. Organize the data
     report_data = {
